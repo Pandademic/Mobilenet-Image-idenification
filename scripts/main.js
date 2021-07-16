@@ -1,3 +1,4 @@
+console.error("changes have been made")
 Webcam.set({
     width: 310,
     height:300,
