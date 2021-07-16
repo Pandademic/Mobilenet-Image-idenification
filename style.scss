@@ -20,19 +20,19 @@ img{
      height: 100px;
 }
 }
-#camera{
+#camera , #result{
     background-color: white;
     border:black dashed 1px;
     width: 350px;
     height: 350px;
 }
 .main_div { 
-label{
-    color:white;
+kbd{
     @include bob;
     padding: 10px;
     margin-top:0px;
     @include coolshadows;
+    margin-bottom: 10px;
 }
 button{
     @include bob;
@@ -40,3 +40,21 @@ button{
     
 }
 }
+.footer_div{
+    margin-bottom: 50px;
+    h4{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    }
+}
+.copy_right_footer{
+    position: fixed;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    padding-top: 20px;
+}
+
