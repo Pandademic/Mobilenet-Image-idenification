@@ -14,21 +14,40 @@ body {
   height: 100px;
 }
 
-#camera {
+#camera, #result {
   background-color: white;
   border: black dashed 1px;
   width: 350px;
   height: 350px;
 }
 
-.main_div label {
-  color: white;
+.main_div kbd {
   width: 350px;
   padding: 10px;
   margin-top: 0px;
   box-shadow: 5px 5px 18px white;
+  margin-bottom: 10px;
 }
 .main_div button {
   width: 350px;
   margin-top: 10px;
+}
+
+.footer_div {
+  margin-bottom: 50px;
+}
+.footer_div h4 {
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.copy_right_footer {
+  position: fixed;
+  color: whitesmoke;
+  bottom: 0;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  padding-top: 20px;
 }
